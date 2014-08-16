@@ -6,8 +6,7 @@ public class NumeroPrimo2 {
 
 	public static void main(String[] args){
 		
-		int n;
-		n = Integer.parseInt(JOptionPane.showInputDialog("Digite um Número: "));
+		int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um Número: "));
 		
 		if(ehPrimo(n)){
 			JOptionPane.showMessageDialog(null, "O Número é Primo !");
